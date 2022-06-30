@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>juego del Ahorcado</title>
+</head>
+<body>
+    
+    <header>
+        <h1>logo</h1>
+    </header>
+    <div class="contenedor-master">
+        <section id="section-1">
+            <h1>Juego del Ahorcado</h1>
+            <button id="iniciar" class="btn">Iniciar Juego</button>
+            <br>
+            <button id="agregar" class="btn">Agregar Palabra</button>
+            
+        </section>
+        <section id="section-2" class="section2">
+            <canvas id="canvas" width="400" height="400"></canvas>
+            <div id="contenedor">
+                <div id="ayuda" class="ayuda">
+                    <h2>si recibis ayuda tendrias 2 falta</h2>
+                    <button id="si" class="btnOpciones">Acepto</button>
+                    <button id="no" class="btnOpciones">No Gracias</button>
+                </div>
+                <div id="ganar" class="ganar">
+                    <h2>GANASTE!</h2>
+                    <button id="ok" class="btnOpciones">Ok</button>
+                    
+                </div>
+
+                <div id="perder" class="perder">
+                    <h2>PERDISTE!  :(</h2>
+                    <button id="ok2" class="btnOpciones">Ok</button>
+                    
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section id="section-3" class="ocultar">
+            <h1>agregar palabra</h1>
+            <div>
+                <h3>(máximo 12 letras)</h3>
+                <input type="text" id="palabaraAgregada" class="inputPalabra">
+                <br>
+                <button id="aceptar" class="btn">Agregar</button>
+                <br>
+                <button id="volver" class="btn">Volver</button>
+            </div>    
+        </section>
+    </div>
+<script src="js.js" ></script>
+</body>
+</html>

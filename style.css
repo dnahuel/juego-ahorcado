@@ -1,0 +1,206 @@
+
+:root {
+    --fondo: #fef2e4;
+    --contorno-letra: #4e5152;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: var(--fondo);
+    
+}
+
+section{
+    text-align: center;
+}
+.ocultar{
+    display: none;
+}
+.btnLetras{
+    width: 48px;
+    height: 30px;
+
+    font-size: 18px;
+    margin: 4px;
+    background-color: var(--fondo);
+    border-radius: 5px;
+    color: var(--contorno-letra);
+    border-color:var(--contorno-letra);
+    border-style: groove;
+}
+
+.btnAyuda{
+    width: 100px;
+    height: 30px;
+
+    font-size: 18px;
+    margin: 4px;
+    background-color: var(--fondo);
+    border-radius: 5px;
+    color: var(--contorno-letra);
+    border-color:var(--contorno-letra);
+    border-style: groove;
+}
+
+
+
+.btnOcupado{
+    color: var(--contorno-letra);
+    width: 48px;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 4px;
+    background-color:var(--fondo);
+}
+.inputPalabras{
+    background-color: rgb(98, 99, 99);
+    font-weight: bold;
+    width: 30px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-right: 2px;
+    margin-top: 6px;
+    margin-left: 2px;
+    
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color:black;
+    border-radius: 8px;
+    
+}
+canvas{
+    background-color:var(--fondo);
+}
+
+#contenedor{
+    background-color:var(--fondo)
+}
+.section2{
+    display:inline;
+ 
+    
+}
+.section-3{
+    display:inline;
+}
+.btn{
+    border-color: var(--contorno-letra);
+    background-color:var(--fondo);
+    color:var(--contorno-letra);
+    width:180px;
+    height: 150px;
+    font-size: 30px;
+    border-radius: 16px;
+    margin: 15px;
+}
+
+.btnOpciones{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 30px;
+   
+    font-size: 15px;
+    border-color: var(--contorno-letra);
+    background-color:var(--fondo);
+    color: var(--contorno-letra);
+    border-radius: 5px;
+}
+
+.inputPalabra{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+
+}
+
+.ayuda{
+    position: absolute;
+    background-color: red;
+    top: 90px;
+    margin: 5px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+.ganar{
+    position: absolute;
+    background-color: rgb(79, 245, 57);
+
+    top: 90px;
+    margin: 5px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    width: 60%;
+    align-items: center;
+}
+
+
+.perder{
+    position: absolute;
+    background-color: rgb(245, 57, 57);
+
+    top: 90px;
+    margin: 5px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    width: 60%;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+    .section2{
+        display:flex;
+        flex-direction: row;
+        
+    }
+
+    
+    .ganar{
+        position: absolute;
+        background-color: rgb(79, 245, 57);
+      
+        top: 90px;
+        margin: 5px;
+        text-align: center;
+        padding: 6px;
+        border-radius: 10px;
+        width: 20%;
+        
+    }
+
+    .perder{
+        position: absolute;
+        background-color: rgb(245, 57, 57);
+      
+        top: 90px;
+        margin: 5px;
+        text-align: center;
+        padding: 6px;
+        border-radius: 10px;
+        width: 20%;
+        
+    }
+
+    .contenedor-master{
+        text-align: center;
+        display: block ruby;
+    }
+    
+    
+  } 
+
+
